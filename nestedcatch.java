@@ -9,6 +9,7 @@ class nestedcatch
         }
         catch(Exception e)
         {
+            System.out.println(e);
             try
             {
                 String a=null;
